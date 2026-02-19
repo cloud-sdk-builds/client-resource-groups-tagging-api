@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-resource-groups-tagging-api`](https://www.npmjs.com/package/@aws-sdk/client-resource-groups-tagging-api/v/3.211.0).
+[`@aws-sdk/client-resource-groups-tagging-api`](https://www.npmjs.com/package/@aws-sdk/client-resource-groups-tagging-api/v/3.212.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-resource-groups-tagging-api@3.211.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-resource-groups-tagging-api@3.212.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-FYc1gPzCkyhO9IFZeeQMiDXTNLeBrAPEYFqBGCEpgmhm8nng0J4Ryw/co+Z8781r
+sha384-3XlK8O4+wBRTvsfnbtuJkFL8L95qyIvcFA1mKwPs3YPt7T/ozVG0GNA/pGRjTXo7
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-resource-groups-tagging-api": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-resource-groups-tagging-api@3.211.0/index.min.mjs"
+            "@aws-sdk/client-resource-groups-tagging-api": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-resource-groups-tagging-api@3.212.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-resource-groups-tagging-api@3.211.0/index.min.mjs": "sha384-FYc1gPzCkyhO9IFZeeQMiDXTNLeBrAPEYFqBGCEpgmhm8nng0J4Ryw/co+Z8781r"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-resource-groups-tagging-api@3.212.0/index.min.mjs": "sha384-3XlK8O4+wBRTvsfnbtuJkFL8L95qyIvcFA1mKwPs3YPt7T/ozVG0GNA/pGRjTXo7"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-resource-groups-tagging-api": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-resource-groups-tagging-api@3.211.0/index.min.mjs"
+                        "@aws-sdk/client-resource-groups-tagging-api": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-resource-groups-tagging-api@3.212.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-resource-groups-tagging-api@3.211.0/index.min.mjs": "sha384-FYc1gPzCkyhO9IFZeeQMiDXTNLeBrAPEYFqBGCEpgmhm8nng0J4Ryw/co+Z8781r"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-resource-groups-tagging-api@3.212.0/index.min.mjs": "sha384-3XlK8O4+wBRTvsfnbtuJkFL8L95qyIvcFA1mKwPs3YPt7T/ozVG0GNA/pGRjTXo7"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.211.0`)
+* Always pin to a specific version (`@3.212.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-resource-groups-tagging-api/blob/refs/tags/3.211.0/LICENSE
+https://github.com/cloud-sdk-builds/client-resource-groups-tagging-api/blob/refs/tags/3.212.0/LICENSE
 ```
 
 ---
